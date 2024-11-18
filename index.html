@@ -1,81 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seattle Bakery</title>
-    <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velvet Crumbs</title>
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to Seattle Bakery</h1>
-        <nav>
-            <a href="#about">About Us</a>
-            <a href="#menu">Our Menu</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img src="images/circular_logo.png" alt="Velvet Crumbs Logo" class="logo" />
+      </div>
+      <div class="nav-center">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-right">
+        <button class="button velvet-button">Pudding Club</button>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Located in the heart of Seattle, our bakery is dedicated to crafting the freshest bread, pastries, and coffee for our community. Whether you’re stopping by for breakfast or ordering a custom cake for a celebration, we bring a touch of love to every bite.</p>
-            <p><a href="#contact" role="button">Visit Us Today!</a></p>
-        </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>New! Indulge in Our Signature Velvet Cakes</h1>
+      <p>
+        Discover the rich flavors of our handcrafted velvet cakes, made with the finest
+        ingredients to create a decadent treat for every occasion.
+      </p>
+      <button class="cta-button">Learn More</button>
+    </div>
+  </section>
 
-        <section id="menu">
-            <h2>Our Menu</h2>
-            <p>Here’s a taste of what we offer:</p>
-            <ul>
-                <li>Freshly Baked Artisan Bread</li>
-                <li>Golden, Buttery Croissants</li>
-                <li>Custom Cakes for Every Occasion</li>
-                <li>Locally Roasted Coffee and Tea</li>
-            </ul>
-            <p><a href="#contact" role="button">Order Now</a></p>
-        </section>
+  <!-- Main Content -->
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Velvet Crumbs is your go-to spot for freshly baked bread, pastries, and coffee.
+        We bring joy to every bite with locally sourced ingredients and a passion for baking.
+      </p>
+    </section>
 
-        <section id="hours">
-            <h2>Hours of Operation</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Hours</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monday - Friday</td>
-                        <td>7:00 AM - 6:00 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>8:00 AM - 5:00 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>8:00 AM - 4:00 PM</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <ul>
+        <li>Fresh Artisan Bread</li>
+        <li>Golden Croissants</li>
+        <li>Custom Cakes</li>
+        <li>Locally Roasted Coffee</li>
+      </ul>
+    </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>We’d love to hear from you! Here’s how you can get in touch:</p>
-            <ul>
-                <li><strong>Address:</strong> 123 Pike Place, Seattle, WA</li>
-                <li><strong>Phone:</strong> <a href="tel:1234567890">(123) 456-7890</a></li>
-                <li><strong>Email:</strong> <a href="mailto:info@seattlebakery.com">info@seattlebakery.com</a></li>
-            </ul>
-            <p><a href="https://goo.gl/maps/SeattleBakery" role="button" target="_blank">Find Us on Google Maps</a></p>
-        </section>
-    </main>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> 123 Pike Place, Seattle, WA</p>
+      <p><strong>Phone:</strong> <a href="tel:1234567890">(123) 456-7890</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@velvetcrumbs.com">info@velvetcrumbs.com</a></p>
+    </section>
+  </main>
 
-    <footer>
-        <p>© 2024 Seattle Bakery | Fresh Bakes, Every Day | <a href="#about">Back to Top</a></p>
-    </footer>
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Velvet Crumbs. All rights reserved.</p>
+  </footer>
 </body>
 </html>
