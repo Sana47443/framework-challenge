@@ -1,11 +1,10 @@
-/* General body styling with velvet color theme */
 body {
-  background-image: url("images/bakery-image-3.jpg"); /* Replace with your actual image */
+  background-image: url("images/bakery-image-3.jpg"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #542525; /* Velvet-themed text color */
+  color: #542525; 
   position: relative;
 }
 
@@ -16,17 +15,17 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(84, 37, 37, 0.6); /* Dark velvet overlay */
+  background-color: rgba(84, 37, 37, 0.6); 
   z-index: -1;
 }
 
-/* Navbar styling */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-  background-color: rgba(84, 37, 37, 0.9); /* Deep velvet background */
+  background-color: rgba(84, 37, 37, 0.9); 
   color: #fff;
 }
 
@@ -42,12 +41,12 @@ body::before {
 }
 
 .navbar a:hover {
-  color: #d3afa2; /* Light gold hover effect */
+  color: #d3afa2; 
 }
 
-/* Velvet button styling */
+
 .velvet-button {
-  background-color: #ae7cb8; /* Light velvet color */
+  background-color: #5b5151; 
   color: white;
   padding: 10px 16px;
   border-radius: 20px;
@@ -57,14 +56,14 @@ body::before {
 }
 
 .velvet-button:hover {
-  background-color: #9757a1; /* Darker velvet color on hover */
+  background-color: #9757a1; 
 }
 
-/* Hero section */
+
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Light translucent background */
+  background-color: rgba(255, 255, 255, 0.8); 
   border-radius: 10px;
   margin: 50px auto;
   max-width: 800px;
@@ -72,7 +71,7 @@ body::before {
 
 .hero h1 {
   font-size: 2.5em;
-  color: #542525; /* Velvet text color */
+  color: #542525; 
   margin-bottom: 20px;
 }
 
@@ -83,7 +82,7 @@ body::before {
 }
 
 .cta-button {
-  background-color: #542525; /* Deep velvet */
+  background-color: #542525;
   color: #fff;
   padding: 12px 24px;
   border-radius: 5px;
@@ -94,22 +93,22 @@ body::before {
 }
 
 .cta-button:hover {
-  background-color: #ae7cb8; /* Light velvet hover */
+  background-color: #ae7cb8; 
 }
 
-/* Footer styling */
+
 footer {
   text-align: center;
   padding: 20px;
-  background-color: rgba(84, 37, 37, 0.9); /* Deep velvet background */
+  background-color: rgba(84, 37, 37, 0.9); 
   color: #fff;
 }
 
-/* Main content styling */
+
 main {
   max-width: 800px;
   margin: 50px auto;
-  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  background-color: rgba(255, 255, 255, 0.9); 
   padding: 20px;
   border-radius: 10px;
 }
@@ -126,7 +125,7 @@ main ul {
 }
 
 main a {
-  color: #542525; /* Velvet link color */
+  color: #542525; 
   text-decoration: none;
 }
 
